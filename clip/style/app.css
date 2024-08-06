@@ -1,0 +1,15 @@
+
+body  {
+    height: 400px;
+    margin-top: -80px;
+}
+
+p{
+    font-size: 34px;
+    
+    background-image: url(/images/rwed.jpg);
+    background-size: cover;
+
+  -webkit-background-clip: text;
+  color: transparent;
+}
