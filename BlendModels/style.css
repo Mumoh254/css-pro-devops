@@ -1,0 +1,21 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+.blend {
+    height: 100vh;
+
+    background: #000;
+    background-image:  url("/images/bg.jpg"),  url( /images/basket.jpg),
+    linear-gradient(rgba(57, 4, 201, 0.601) , rgb(171, 83, 83), rgb(147, 61, 61));
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-color: steelblue;
+    background-blend-mode: overlay , multiply;
+}
+.blend  img  {
+    width: 100%;
+}

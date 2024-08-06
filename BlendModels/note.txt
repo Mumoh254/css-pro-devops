@@ -1,0 +1,2 @@
+//how   u  can      do   background   image   with    background    color
+//blending   modes   work    with     images
