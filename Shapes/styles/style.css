@@ -1,0 +1,52 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'poppins';
+}
+.shapes  {
+    height: 100px;
+    background: #000;
+    border-radius:   5px;
+}
+
+.child{
+    height: 50px;
+    background: red;
+    width: 
+    50%;
+    margin: 0  auto;
+    border-radius: 5px;
+
+}
+.p{
+    display: grid;
+    place-items: centre;
+
+}
+
+.two  {
+
+    background: rgb(11, 71, 191);
+}
+
+.two   img  {
+  
+  
+ 
+    clip-path: polygon(0% 0%, 100% 0%, 100% 75%, 75% 75%, 75% 100%, 50% 75%, 0% 75%);
+
+}
+
+body{
+    background: #1129cc;
+}
+
+
+.four  {
+    width: 100%;
+    height: 100px;
+    background: #000;
+    clip-path: polygon(0% 0%, 100% 0, 79% 55%, 64% 100%, 0% 100%);
+}
