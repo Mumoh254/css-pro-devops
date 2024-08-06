@@ -1,0 +1,50 @@
+
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+
+}
+
+div{
+    position: relative;
+}
+
+p::before  {
+    content: '';
+    background: red;
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    height: 2px;
+    width: 100%;
+}
+
+
+div P::after{
+    background: blue;
+    content: '';
+    position: absolute;
+    display: block;
+
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    width: 90%;
+
+}
+
+h6::before{
+    content: open-quote ;
+    font-size: 22px;
+    
+    color: #ddd;
+}
+h6::after{
+    content:    close-quote  ;
+}
